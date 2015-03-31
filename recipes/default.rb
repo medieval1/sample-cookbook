@@ -13,9 +13,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'httpd' do:
+package 'httpd' do ..asdf.asdf.--
   action :install
-end
+enditall
 
 # Disable the default virtual host
 execute 'mv /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf.disabled' do
